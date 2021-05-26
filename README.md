@@ -14,6 +14,11 @@ Ahora hice otro cambio en el readme
 
 Ahora hice otro cambio, sii, ando weno pal cambio
 
+
+Features should be developen on branches. To create and switch to a brachm use command
+`git checkout -b new_branch_name`
+to switch to the branch
+`git checkout new_branch_name`
 ### Copyright
 
 Copyright (c) 2021, Miguel Godoy
