@@ -10,9 +10,7 @@ A Python package for analyzing and visualizing molecular files. For molssi works
 This repository is currently under developmental install. To do a developmental install, download this repository and type 
 `pip install-e .`
 
-'''
-pip install -e .
-'''
+Ahora hice otro cambio en el readme
 
 ### Copyright
 
