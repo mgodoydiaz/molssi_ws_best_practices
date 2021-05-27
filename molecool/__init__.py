@@ -4,7 +4,13 @@ A Python package for analyzing and visualizing molecular files. For molssi works
 """
 
 # Add imports here
-from .functions import *
+
+from .atom_data import *
+from .measure import calculate_distance, calculate_angle
+from .molecule import build_bond_list
+from .visualize import draw_molecule, draw_bond_histogram
+
+import molecool.io
 
 # Handle versioneer
 from ._version import get_versions
