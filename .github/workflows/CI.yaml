@@ -23,9 +23,10 @@ jobs:
     name: Welcome the user with ascii art
     runs-on: ubuntu-latest
     steps:
-      - uses: mscoutermarsh/ascii-art-action@master
-          with:
-            text: 'Welcome to molecool'
+    - uses: mscoutermarsh/ascii-art-action@master
+        with:
+          text: 'Welcome to molecool'
+
   test:
     name: Test on ${{ matrix.os }}, Python ${{ matrix.python-version }}
     runs-on: ${{ matrix.os }}
