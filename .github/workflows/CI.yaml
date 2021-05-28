@@ -24,8 +24,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: mscoutermarsh/ascii-art-action@master
-        with:
-          text: 'Welcome to molecool'
+      with:
+        text: 'Welcome to molecool'
 
   test:
     name: Test on ${{ matrix.os }}, Python ${{ matrix.python-version }}
